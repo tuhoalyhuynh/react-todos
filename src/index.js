@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+let list = ['Learn React', '???', 'Profit']
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App list={list}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
